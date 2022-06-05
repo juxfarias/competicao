@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\RankingMovementController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,5 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-
-Route::get('/ranking', [MovimentoController::class, 'index']);
+Route::get('/rankingMovement', [RankingMovementController::class, 'index']);
