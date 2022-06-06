@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 
 class rankingMovementController extends Controller
 {
+     
     public function index()
     {
         $movements = Movement::all();
@@ -29,7 +30,5 @@ class rankingMovementController extends Controller
         return response()->json($rankingMovement);
         
     }
-    public function store(){
-        $movements = Movement::all();
-    }
+
 }
