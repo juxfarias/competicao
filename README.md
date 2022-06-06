@@ -17,10 +17,11 @@ A finalidade desta API é trazer o ranking dos atletas por tipo de movimento exe
 
 ## Instalação
 
-- Criar um banco no SGBD e realizar as devidas configurações no ".env" do projeto;
-- Baixar o projeto;
+- Executar o "git clone https://github.com/juxfarias/competicao.git";
 - Executar o "composer install";
+- Renomear o arquivo ".env.example" para ".env";
 - Executar o "php artisan key:generate";
+- Criar um banco no SGBD e realizar as devidas configurações no ".env";
 - Executar o "php artisan migrate --seed";
 - Executar o "php artisan serve".
 
