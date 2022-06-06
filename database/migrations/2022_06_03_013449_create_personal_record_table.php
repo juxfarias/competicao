@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->nullable(false)->constrained('user');
             $table->foreignId('movement_id')->nullable(false)->constrained('movement');
-            $table->float('value', 8, 2)->nullable(false);
+            $table->float('value', 8, 1)->nullable(false);
             $table->dateTime('date')->nullable(false);
         });
     }
