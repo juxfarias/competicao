@@ -31,7 +31,6 @@ A finalidade desta API é trazer o ranking dos atletas por tipo de movimento exe
 
 ## Tecnologias utilizadas
 
-- Laravel
 - PHP 8.1.6;
 - Laravel 9.15.0;
 - Visual Studio Code;
