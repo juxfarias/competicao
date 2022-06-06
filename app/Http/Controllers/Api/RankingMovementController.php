@@ -29,4 +29,7 @@ class rankingMovementController extends Controller
         return response()->json($rankingMovement);
         
     }
+    public function store(){
+        
+    }
 }
