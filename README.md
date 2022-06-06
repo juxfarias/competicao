@@ -21,7 +21,8 @@ A finalidade desta API é trazer o ranking dos atletas por tipo de movimento exe
 - Baixar o projeto;
 - Executar o "composer install";
 - Executar o "php artisan key:generate";
-- Executar o "php artisan migrate --seed".
+- Executar o "php artisan migrate --seed";
+- Executar o "php artisan serve".
 
 ## Endereço da API
 
