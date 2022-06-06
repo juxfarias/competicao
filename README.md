@@ -13,11 +13,31 @@ A finalidade desta API é trazer o ranking dos atletas por tipo de movimento exe
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/juxfarias/competicao/blob/main/.others/api_chamada.jpg"></a></p>
 
 
-- [Resposta em json](https://raw.githubusercontent.com/juxfarias/competicao/main/.others/api_response.json).
+[Resposta em json](https://raw.githubusercontent.com/juxfarias/competicao/main/.others/api_response.json).
 
 ## Instalação
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Criar um banco no SGBD e realizar as devidas configurações no ".env" do projeto;
+- Baixar o projeto;
+- Executar o "composer install";
+- Executar o "php artisan key:generate";
+- Executar o "php artisan migrate --seed".
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Endereço da API
+
+**api/rankingMovement**
+
+## Tecnologias utilizadas
+
+- Laravel
+- PHP 8.1.6;
+- Laravel 9.15.0;
+- Visual Studio Code;
+- MySQL;
+- Postman.
+
+## Autor(a)
+
+<img src="https://avatars.githubusercontent.com/u/49696836?v=4" width=115><br><sub>Juliana Farias</sub>
+
 
