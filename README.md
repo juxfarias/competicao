@@ -38,6 +38,6 @@ A finalidade desta API é trazer o ranking dos atletas por tipo de movimento exe
 
 ## Autora
 
-<img src="https://avatars.githubusercontent.com/u/49696836?v=4" width=115><br><sub>Juliana Farias</sub>
+<img src="https://avatars.githubusercontent.com/u/49696836?v=4" width=115><br><sub>:raising_hand: <b>Juliana Farias</b></sub>
 
 
