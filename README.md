@@ -10,10 +10,10 @@
 
 A finalidade desta API é trazer o ranking dos atletas por tipo de movimento executado, onde atletas com a mesma pontuação, devem ocupar a mesma posição no ranking.
 
+<h5>Exemplo de chamada da API utilizando o Postman</h5>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/juxfarias/competicao/blob/main/.others/api_chamada.jpg"></a></p>
 
-
-[Resposta em json](https://raw.githubusercontent.com/juxfarias/competicao/main/.others/api_response.json).
+:arrow_right: [Resposta em json](https://raw.githubusercontent.com/juxfarias/competicao/main/.others/api_response.json).
 
 ## Instalação
 
