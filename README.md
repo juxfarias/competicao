@@ -1,6 +1,4 @@
-<p align="center">
-## API Rest (Ranking por movimento)
-</p>
+<h1 align="center"> API Rest (Ranking por movimento) </h1>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="others/img_api.jpg"></a></p>
 
