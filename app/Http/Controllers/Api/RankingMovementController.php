@@ -30,6 +30,6 @@ class rankingMovementController extends Controller
         
     }
     public function store(){
-        
+        $movements = Movement::all();
     }
 }
