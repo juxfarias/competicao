@@ -1,6 +1,6 @@
 <h1 align="center"> API Rest (Ranking por movimento) </h1>
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="others/img_api.jpg"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src=".others/img_api.jpg"></a></p>
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=em%20analise&color=GREEN&style=for-the-badge"/>
@@ -9,6 +9,9 @@
 ## Sobre o projeto
 
 A finalidade desta API é trazer o ranking dos atletas por tipo de movimento executado, onde atletas com a mesma pontuação, devem ocupar a mesma posição no ranking.
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/juxfarias/competicao/blob/main/.others/chamada_api.jpg"></a></p>
+
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
