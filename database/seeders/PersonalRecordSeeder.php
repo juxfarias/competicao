@@ -15,124 +15,37 @@ class PersonalRecordSeeder extends Seeder
      */
     public function run()
     {
-        PersonalRecord::create([   
-            'user_id' => '1',
-            'movement_id' => '1',
-            'value' => '100.0',
-            'date' => '2021-01-01 00:00:00.0'
-        ]);
+        
+        $arrayPontuacao = [
+            $personalRecord[0] = ['1','1','100.0','2021-01-01 00:00:00.0'],
+            $personalRecord[1] = ['1','1','180.0','2021-01-02 00:00:00.0'],
+            $personalRecord[2] = ['1','1','150.0','2021-01-03 00:00:00.0'],
+            $personalRecord[3] = ['1','1','110.0','2021-01-04 00:00:00.0'],
+            $personalRecord[4] = ['2','1','110.0','2021-01-04 00:00:00.0'],
+            $personalRecord[5] = ['2','1','140.0','2021-01-05 00:00:00.0'],
+            $personalRecord[6] = ['2','1','190.0','2021-01-06 00:00:00.0'],
+            $personalRecord[7] = ['3','1','170.0','2021-01-01 00:00:00.0'],
+            $personalRecord[8] = ['3','1','120.0','2021-01-02 00:00:00.0'],
+            $personalRecord[9] = ['3','1','130.0','2021-01-03 00:00:00.0'],
+            $personalRecord[10] = ['1','2','130.0','2021-01-03 00:00:00.0'],
+            $personalRecord[11] = ['2','2','130.0','2021-01-03 00:00:00.0'],
+            $personalRecord[12] = ['3','2','125.0','2021-01-03 00:00:00.0'],
+            $personalRecord[13] = ['1','2','110.0','2021-01-05 00:00:00.0'],
+            $personalRecord[14] = ['1','2','100.0','2021-01-01 00:00:00.0'],
+            $personalRecord[15] = ['2','2','120.0','2021-01-01 00:00:00.0'],
+            $personalRecord[16] = ['3','2','120.0','2021-01-01 00:00:00.0']
+        ];
 
-        PersonalRecord::create([
-            'user_id' => '1',
-            'movement_id' => '1',
-            'value' => '180.0',
-            'date' => '2021-01-02 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '1',
-            'movement_id' => '1',
-            'value' => '150.0',
-            'date' => '2021-01-03 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '1',
-            'movement_id' => '1',
-            'value' => '110.0',
-            'date' => '2021-01-04 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '2',
-            'movement_id' => '1',
-            'value' => '110.0',
-            'date' => '2021-01-04 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '2',
-            'movement_id' => '1',
-            'value' => '140.0',
-            'date' => '2021-01-05 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '2',
-            'movement_id' => '1',
-            'value' => '190.0',
-            'date' => '2021-01-06 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '3',
-            'movement_id' => '1',
-            'value' => '170.0',
-            'date' => '2021-01-01 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '3',
-            'movement_id' => '1',
-            'value' => '120.0',
-            'date' => '2021-01-02 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '3',
-            'movement_id' => '1',
-            'value' => '130.0',
-            'date' => '2021-01-03 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '1',
-            'movement_id' => '2',
-            'value' => '130.0',
-            'date' => '2021-01-03 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '2',
-            'movement_id' => '2',
-            'value' => '130.0',
-            'date' => '2021-01-03 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '3',
-            'movement_id' => '2',
-            'value' => '125.0',
-            'date' => '2021-01-03 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '1',
-            'movement_id' => '2',
-            'value' => '110.0',
-            'date' => '2021-01-05 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '1',
-            'movement_id' => '2',
-            'value' => '100.0',
-            'date' => '2021-01-01 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '2',
-            'movement_id' => '2',
-            'value' => '120.0',
-            'date' => '2021-01-01 00:00:00.0'
-        ]);
-
-        PersonalRecord::create([
-            'user_id' => '3',
-            'movement_id' => '2',
-            'value' => '120.0',
-            'date' => '2021-01-01 00:00:00.0'
-        ]);
-
+        $pontuacao = [];
+        for ($i = 0; $i < count($arrayPontuacao); $i++){
+            $pontuacao[] = [
+                'user_id' => $personalRecord[$i][0],
+                'movement_id' => $personalRecord[$i][1],
+                'value' => $personalRecord[$i][2],
+                'date' => $personalRecord[$i][3]
+            ];
+        }
+        PersonalRecord::insert($pontuacao);
+        
     }
 }

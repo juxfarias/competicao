@@ -20,7 +20,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/user', [UserController::class, 'index']);
-Route::get('/movement', [MovementController::class, 'index']);
-Route::get('/personalRecord', [PersonalRecordController::class, 'index']);

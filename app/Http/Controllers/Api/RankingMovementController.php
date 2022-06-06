@@ -20,8 +20,8 @@ class rankingMovementController extends Controller
                     ->join('movement', 'personal_record.movement_id', '=', 'movement.id')
                     ->select('user.name AS nome', 
                              'personal_record.value AS pontuacao', 
-                              DB::raw('DENSE_RANK() OVER (ORDER BY personal_record.value DESC) posicao',
-                             'personal_record.date AS data'))
+                              DB::raw('DENSE_RANK() OVER (ORDER BY personal_record.value DESC) posicao'),
+                              DB::raw('DATE(personal_record.date) AS data'))
                     ->where('movement.name', '=', $movement['name'])
                     ->orderBy('personal_record.value', 'desc')
                     ->get();
