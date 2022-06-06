@@ -1,6 +1,6 @@
 <h1 align="center"> API Rest (Ranking por movimento) </h1>
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src=".others/img_api.jpg"></a></p>
+<p align="center"><a href="https://github.com/juxfarias/competicao" target="_blank"><img src=".others/img_api.jpg"></a></p>
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=em%20analise&color=GREEN&style=for-the-badge"/>
@@ -13,15 +13,7 @@ A finalidade desta API é trazer o ranking dos atletas por tipo de movimento exe
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/juxfarias/competicao/blob/main/.others/chamada_api.jpg"></a></p>
 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- [Resposta em json](https://raw.githubusercontent.com/juxfarias/competicao/main/.others/response.json).
 
 ## Learning Laravel
 
