@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class PersonalRecordController extends Controller
+{
+    public function index(){
+        
+
+    }
+}
