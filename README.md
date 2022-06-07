@@ -1,6 +1,6 @@
 <h1 align="center"> API Rest (Ranking por movimento) </h1>
 
-<p align="center"><a href="https://github.com/juxfarias/competicao" target="_blank"><img src=".others/api_logo.jpg"></a></p>
+<p align="center"><a href="https://github.com/juxfarias/competicao" target="_blank"><img src=".others/api_img.png"></a></p>
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=em%20analise&color=GREEN&style=for-the-badge"/>
